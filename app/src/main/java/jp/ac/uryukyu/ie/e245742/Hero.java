@@ -14,30 +14,70 @@ public class Hero {
     private int attack;
     private boolean dead;
 
+    /**
+     * ヒーローの名前を取得するメソッド。
+     * @return ヒーローの名前
+     */
     public String getName() {
         return name;
     }
+
+    /**
+     * ヒーローのHPを取得するメソッド。
+     * @return ヒーローの現在のHP
+     */
     public int getHitPoint() {
         return hitPoint;
     }
+
+    /**
+     * ヒーローの攻撃力を取得するメソッド。
+     * @return ヒーローの攻撃力
+     */
     public int getAttack() {
         return attack;
     }
+
+    /**
+     * ヒーローの死亡状態を取得するメソッド。
+     * @return 死亡状態（true = 死亡, false = 生存）
+     */
     public boolean getDead() {
         return dead;
     }
+
+    /**
+     * ヒーローの名前を設定するメソッド。
+     * @param name 設定する名前
+     */
     public void setName(String name) {
         this.name = name;
     }
+
+    /**
+     * ヒーローのHPを設定するメソッド。
+     * @param hitPoint 設定するHP
+     */
     public void setHitPoint(int hitPoint) {
         this.hitPoint = hitPoint;
     }
+
+    /**
+     * ヒーローの攻撃力を設定するメソッド。
+     * @param attack 設定する攻撃力
+     */
     public void setAttack(int attack) {
         this.attack = attack;
     }
+
+    /**
+     * ヒーローの死亡状態を設定するメソッド。
+     * @param dead 死亡状態（true = 死亡, false = 生存）
+     */
     public void setDead(boolean dead) {
         this.dead = dead;
     }
+
     
     /**
      * コンストラクタ。名前、最大HP、攻撃力を指定する。
